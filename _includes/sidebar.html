@@ -3,7 +3,7 @@
 <ul id="mysidebar" class="nav">
 
     {% if site.logo %}
-    <div class="shiny"><a href="\"><figure><img src="{{ site.logo }}" class="sidebar-logo"/></figure></a></div>
+    <div class="shiny"><a href="\"><figure><img src="{{ site.baseurl }}{{ site.logo }}" class="sidebar-logo"/></figure></a></div>
     {% endif %}
 
     <li class="sidebarTitle">{{sidebar[0].title}}</li>

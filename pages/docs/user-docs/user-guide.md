@@ -151,8 +151,8 @@ The security model of Singularity (as described above, ["*A user inside a Singul
 In many circumstances building containers require root administrative privileges just like these actions would require on any system, container, or virtual machine. This means that a user must have access to a system on which they have root privileges. This could be a server, workstation, a laptop, virtual machine, or even a cloud instance. If you are using OS X or Windows on your laptop, it is recommended to setup Vagrant, and run Singularity from there (there are recipes for this which can be found at http://singularity.lbl.gov/). Once you have Singularity installed on your endpoint of choice, this is where you will do the bulk of your container development.  
 This workflow can be described visually as follows:
 
-<a href="/assets/img/diagram/singularity-2.4-flow.png" target="_blank" class="no-after">
-   <img style="max-width:900px" src="/assets/img/diagram/singularity-2.4-flow.png">
+<a href="{{ site.baseurl }}/assets/img/diagram/singularity-2.4-flow.png" target="_blank" class="no-after">
+   <img style="max-width:900px" src="{{ site.baseurl }}/assets/img/diagram/singularity-2.4-flow.png">
 </a>
 
 On the left side, you have your build environment: a laptop, workstation, or a server that you control. Here you will (optionally):

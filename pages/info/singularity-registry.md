@@ -14,8 +14,8 @@ to deploy on their resources to manage and serve singularity images.  With Singu
  * manage images in collections, by tags, or metadata
  * visualize collections of images to assess size
 
-<a href="/assets/img/diagram/container_treemap.png" target="_blank" class="no-after">
-   <img style="max-width:900px" src="/assets/img/diagram/container_treemap.png">
+<a href="{{ site.baseurl }}/assets/img/diagram/container_treemap.png" target="_blank" class="no-after">
+   <img style="max-width:900px" src="{{ site.baseurl }}/assets/img/diagram/container_treemap.png">
 </a>
 
 Public images in your registry are immediately available via the Singularity command line software via the `shub://` unique resource identifier:

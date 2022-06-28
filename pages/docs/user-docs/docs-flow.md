@@ -22,8 +22,8 @@ The diagram below is a visual depiction of how you can use Singularity to build 
  - a **build** environment (where you have sudo privileges) to test and build your container
  - a **production** environment where you run your container
 
-<a href="/assets/img/diagram/singularity-2.4-flow.png" target="_blank" class="no-after">
-   <img style="max-width:900px" src="/assets/img/diagram/singularity-2.4-flow.png">
+<a href="{{ site.baseurl }}/assets/img/diagram/singularity-2.4-flow.png" target="_blank" class="no-after">
+   <img style="max-width:900px" src="{{ site.baseurl }}/assets/img/diagram/singularity-2.4-flow.png">
 </a>
 
 Singularity production images are immutable. This is a feature added as of Singularity 2.4, and it ensures a higher level of reproducibility and verification of images. To read more about the details, check out the  [build](docs-build-container) docs. However, immutability is not so great when you are testing, debugging, or otherwise want to quickly change your image. We will proceed by describing a typical workflow of developing first, building a final image, and using it in production. 
