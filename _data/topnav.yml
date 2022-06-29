@@ -9,7 +9,7 @@ topnav_dropdowns:
         - title: User Guide
           url: /user-guide
         - title: Archive
-          url: /archive
+          url: /singularityware-archive
         - title: Contributed Content
           url: /links
     - title: Quick Links
