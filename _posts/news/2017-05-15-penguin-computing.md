@@ -9,7 +9,7 @@ Penguin Computing <a href="https://www.hpcwire.com/off-the-wire/penguin-computin
 You can see their <a href="https://pod.penguincomputing.com/documentation/Singularity" target="_blank">documentation for Singularity containers</a> and to learn more about Penguin Computing, 
 visit <a href="http://www.penguincomputing.com" target="_blank">Penguin Computing</a>. 
 
-![/assets/img/posts/news/penguin-computing.png](/assets/img/posts/news/penguin-computing.png)
+![{{ site.baseurl }}/assets/img/posts/news/penguin-computing.png]({{ site.baseurl }}/assets/img/posts/news/penguin-computing.png)
 
 Read about the details at the <a href="https://www.hpcwire.com/off-the-wire/penguin-computing-announces-support-singularity-containers-pod-hpc-cloud-scyld-clusterware-hpc-cluster-management-solution/" target="_blank">press release</a> on HPC Wire.
 

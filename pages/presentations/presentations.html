@@ -13,7 +13,7 @@ folder: presentations
         {% for post in site.categories.presentations limit:10 %}
 
 
-    <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
+    <h2><a class="post-link" href="{{ site.baseurl }}/{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} /
             {% for tag in post.tags %}
 
@@ -28,7 +28,7 @@ folder: presentations
 
 
         <br><br>
-        <p>See more posts from the <a href="presentations_archive">Presentations Archive</a>. </p>
+        <p>See more posts from the <a href="{{ site.baseurl }}/presentations_archive">Presentations Archive</a>. </p>
 
 
 </div>

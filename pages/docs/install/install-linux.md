@@ -139,7 +139,7 @@ Configuration file '/etc/singularity/singularity.conf'
 *** singularity.conf (Y/I/N/O/D/Z) [default=N] ? Y
 ```
 
-And for a user, it's probably well suited to use the defaults. For a cluster admin, we recommend that you read the <a href="/docs-config">admin docs</a> to get a better understanding of the configuration file options available to you. Remember that you can always tweak the files at `/etc/singularity/singularity.conf` and `/etc/singularity/init` if you want to make changes.
+And for a user, it's probably well suited to use the defaults. For a cluster admin, we recommend that you read the <a href="{{ site.baseurl }}/docs-config">admin docs</a> to get a better understanding of the configuration file options available to you. Remember that you can always tweak the files at `/etc/singularity/singularity.conf` and `/etc/singularity/init` if you want to make changes.
 
 After this install, you should confirm that `2.3-dist` is the version installed:
 
@@ -210,6 +210,6 @@ $ fakeroot dpkg-buildpackage -nc -b -us -uc # this will continue the previous bu
 ```
 
 ## Install on your Cluster Resource
-In the case that you want Singularity installed on a shared resource, you will need to talk to the administrator of the resource. Toward this goal, we've prepared a [helpful guide](/install-request) that you can send to him or her. If you have unanswered questions, please [reach out](/support).
+In the case that you want Singularity installed on a shared resource, you will need to talk to the administrator of the resource. Toward this goal, we've prepared a [helpful guide]({{ site.baseurl }}/install-request) that you can send to him or her. If you have unanswered questions, please [reach out]({{ site.baseurl }}/support).
 
 {% include links.html %}

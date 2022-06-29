@@ -6,7 +6,7 @@ toc: false
 folder: docs
 ---
 
-If [enabled by the system administrator](/docs-config#user-bind-control-boolean-defaultyes), Singularity allows you to map directories on your host system to directories within your container using bind mounts.  This allows you to read and write data on the host system with ease.
+If [enabled by the system administrator]({{ site.baseurl }}/docs-config#user-bind-control-boolean-defaultyes), Singularity allows you to map directories on your host system to directories within your container using bind mounts.  This allows you to read and write data on the host system with ease.
 
 {% include toc.html %}
 
@@ -16,15 +16,15 @@ To enable this functionality, Singularity will *bind* directories back in via tw
 
 ### System-defined bind points
 The system administrator has the ability to define what bind points will be included automatically inside each container. The bind paths are locations on the host's root file system which should also be visible within the container.
-Some of the bind paths are automatically derived (e.g. a user's home directory) and some are statically defined (e.g. [`bind path` in the Singularity configuration file](/docs-config#bind-path-string)).
+Some of the bind paths are automatically derived (e.g. a user's home directory) and some are statically defined (e.g. [`bind path` in the Singularity configuration file]({{ site.baseurl }}/docs-config#bind-path-string)).
 In the default configuration, the directories `$HOME`, `/tmp`, `/proc`, `/sys`, and `/dev` are among the system-defined bind points.
 
 ### User-defined bind points
-If the system administrator has [enabled user control of binds](/docs-config#user-bind-control-boolean-defaultyes), you will be able to request your own bind points within your container.
+If the system administrator has [enabled user control of binds]({{ site.baseurl }}/docs-config#user-bind-control-boolean-defaultyes), you will be able to request your own bind points within your container.
 
 To *mount* a bind path inside the container, a **bind point** must be defined within the container. The bind point is a directory within the container that Singularity can use to bind a directory on the host system.  This means that if you want to bind to a point within the container such as `/global`, that directory must already exist within the container.
 
-It is, however, possible that the system administrator has enabled a Singularity feature called [*overlay* in the Singularity configuration file](/docs-config#enable-overlay-boolean-defaultno).
+It is, however, possible that the system administrator has enabled a Singularity feature called [*overlay* in the Singularity configuration file]({{ site.baseurl }}/docs-config#enable-overlay-boolean-defaultno).
 This will cause the bind points to be created on an as-needed basis in an overlay file system so that the underlying container is not modified.
 But because the *overlay* feature is not always enabled or is unavailable in the kernels of some older host systems, it may be necessary for container standards to exist to ensure portability from host to host.
 

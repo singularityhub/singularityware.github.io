@@ -10,8 +10,8 @@ toc: false
 
 Singularity is an open source project, meaning we have the challenge of limited resources. We are grateful for any support that you might offer to other users in the way of helping with issues, documentation, or code! If you haven't already, check out some of the ways to contribute to code and docs:
 
-- <a href="/contributing-code">contribute code</a>
-- <a href="/contributing-docs">contribute docs</a>
+- <a href="{{ site.baseurl }}/contributing-code">contribute code</a>
+- <a href="{{ site.baseurl }}/contributing-docs">contribute docs</a>
 
 
 ### Singularity Google Group

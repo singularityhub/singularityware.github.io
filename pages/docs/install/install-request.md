@@ -48,7 +48,7 @@ Best,
 User
 ```
 
-As is stated in the letter above, you can always <a href="/support">reach out</a> to us for additional questions or support.
+As is stated in the letter above, you can always <a href="{{ site.baseurl }}/support">reach out</a> to us for additional questions or support.
 
 
 {% include links.html %}

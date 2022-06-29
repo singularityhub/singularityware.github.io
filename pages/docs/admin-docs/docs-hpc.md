@@ -36,7 +36,7 @@ Below are example snippets of building and installing OpenMPI into a container a
 
 #### Tutorials
 
- - <a href="/tutorial-gpu-drivers-open-mpi-mtls">Using Host libraries: GPU drivers and OpenMPI BTLs</a>
+ - <a href="{{ site.baseurl }}/tutorial-gpu-drivers-open-mpi-mtls">Using Host libraries: GPU drivers and OpenMPI BTLs</a>
 
 
 #### MPI Development Example

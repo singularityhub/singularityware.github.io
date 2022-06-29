@@ -22,7 +22,7 @@ folder: presentations
             {% if item.external_url %}
             <li><a href="{{ item.external_url }}" target="_blank">{{ item.title }}</a><small style="color:#666"> {{ item.date }}</small></li>
             {% else %}
-            <li><a href="{{ item.url | remove: "/"}}">{{ item.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ item.url | remove: "/"}}">{{ item.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>

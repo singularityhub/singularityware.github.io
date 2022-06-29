@@ -39,7 +39,7 @@ exec /bin/bash "$@"
 Notice how the runscript has bash followed by `$@`? This is good practice to include in a runscript, as any arguments passed by the user will be given to the container.
 
 ## Runtime Flags
-If you are interested in containing an environment or filesystem locations, we highly recommend that you look at the `singularity run help` and our documentation on [flags](/action-flags) to better customize this command.
+If you are interested in containing an environment or filesystem locations, we highly recommend that you look at the `singularity run help` and our documentation on [flags]({{ site.baseurl }}/action-flags) to better customize this command.
 
 ## Examples
 In this example the container has a very simple runscript defined.
@@ -62,7 +62,7 @@ When you first create a container, the runscript is defined using the following 
  4. If the user has not defined a runscript and the Docker container doesn't have an `ENTRYPOINT`, we look for `CMD`, even if the user hasn't asked for it.
  5. If the user has not defined a runscript, and there is no `ENTRYPOINT` or `CMD` (or we aren't importing Docker at all) then we default to `/bin/bash`
 
-Here is how you would define the runscript section when you [build](/docs-build-container) an image:
+Here is how you would define the runscript section when you [build]({{ site.baseurl }}/docs-build-container) an image:
 
 ```bash
 Bootstrap: docker
@@ -82,7 +82,7 @@ From: ubuntu:latest
 exec "$@"`
 ```
 
-If you want different entrypoints for your image, we recommend using the `%apprun` syntax (see [apps](/docs-apps)). Here we have two entrypoints for foo and bar:
+If you want different entrypoints for your image, we recommend using the `%apprun` syntax (see [apps]({{ site.baseurl }}/docs-apps)). Here we have two entrypoints for foo and bar:
 
 ```
 %runscript

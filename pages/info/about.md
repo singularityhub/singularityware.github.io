@@ -142,7 +142,7 @@ Singularity is released under a standard 3 clause BSD license. Please see our <a
 
 ## Getting started
 
-Jump in and <a href="/quickstart"><strong>get started</strong></a>, or find ways to <a href="/support">get help</a>.
+Jump in and <a href="{{ site.baseurl }}/quickstart"><strong>get started</strong></a>, or find ways to <a href="{{ site.baseurl }}/support">get help</a>.
 
 * Project lead: <a href="https://gmkurtzer.github.io/" target="_blank">Gregory M. Kurtzer</a>
 

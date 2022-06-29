@@ -6,9 +6,9 @@ folder: docs
 toc: false
 ---
 
-> Note: The bootstrap command is deprecated for Singularity Version 2.4. You should use [build](/docs-build-container) instead.
+> Note: The bootstrap command is deprecated for Singularity Version 2.4. You should use [build]({{ site.baseurl }}/docs-build-container) instead.
 
-Bootstrapping was the original way (for Singularity versions prior to 2.4) to install an operating system and then configure it appropriately for a specified need. Bootstrap is very similar to build, except that it by default uses an <a href="https://en.wikipedia.org/wiki/Ext3" target="_blank">ext3</a> filesystem and allows for writability. The images unfortunately are not immutable in this way, and can degrade over time. As of 2.4, bootstrap is still supported for Singularity, however we encourage you to use [build](/docs-build-container) instead.
+Bootstrapping was the original way (for Singularity versions prior to 2.4) to install an operating system and then configure it appropriately for a specified need. Bootstrap is very similar to build, except that it by default uses an <a href="https://en.wikipedia.org/wiki/Ext3" target="_blank">ext3</a> filesystem and allows for writability. The images unfortunately are not immutable in this way, and can degrade over time. As of 2.4, bootstrap is still supported for Singularity, however we encourage you to use [build]({{ site.baseurl }}/docs-build-container) instead.
 
 
 ## Quick Start
@@ -77,4 +77,4 @@ Importing: /home/vanessa/.singularity/docker/sha256:cf9722e506aada1109f5c00a9ba5
 Importing: /home/vanessa/.singularity/metadata/sha256:fe44851d529f465f9aa107b32351c8a0a722fc0619a2a7c22b058084fac068a4.tar.gz
 ```
 
-For details and best practices for creating your Singularity recipe, <a href="/docs-recipes">read about them here</a>.
+For details and best practices for creating your Singularity recipe, <a href="{{ site.baseurl }}/docs-recipes">read about them here</a>.

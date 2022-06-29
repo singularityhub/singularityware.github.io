@@ -4,7 +4,7 @@ site_title: Singularity     # appears in the html browser tab for the site title
 company_name: Singularity # this appears in the footer
 logo: "/images/logo/logo.svg" # path to logo for use in left sidebar
 description: "Singularity allows a non-privileged user to 'swap out' the operating system on the host for one they control. So if the host system is running RHEL6 but your application runs in Ubuntu, you can create an Ubuntu image, install your applications into that image, copy the image to another host, and run your application on that host in it's native Ubuntu environment! Singularity also allows you to leverage the resources of whatever host you are on. This includes HPC interconnects, resource managers, file systems, GPUs and/or accelerators, etc."
-baseurl: singularityware.github.io/
+baseurl: /singularityware.github.io
 # the description is used in the feed.xml file
 
 

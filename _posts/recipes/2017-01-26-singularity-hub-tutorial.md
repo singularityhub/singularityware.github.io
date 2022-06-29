@@ -6,7 +6,7 @@ permalink: singularity-tutorial
 
 So you want to put your scientific analysis in a nice package and run it on a cluster? You’ve probably heard of the container technology called Docker?
 
-<img src="/assets/img/tutorial/horsecarrot.png"><br>
+<img src="{{ site.baseurl }}/assets/img/tutorial/horsecarrot.png"><br>
 
 ...too bad you can’t use it on your research cluster, because it introduces huge security issues. You’ve probably also heard of <a href="https://www.vagrantup.com/docs/virtualbox/" target="_blank">virtual machines</a>, but most clusters won’t let you run those either. What options does this leave us? Oh wait, duh, you are reading this website. You already know the answer to this question.
 
@@ -30,7 +30,7 @@ The easiest thing to do is to install Singularity on your local workstation:
     sudo make install
 ```
 
-If you are using a Mac, or just need a virtual machine, then you will want to follow the instructions <a href="http://singularity.lbl.gov/install-mac" target="_blank">here</a>. Basically, you need to install vagrant, virtual box, and then do this:
+If you are using a Mac, or just need a virtual machine, then you will want to follow the instructions <a href="{{ site.baseurl }}/install-mac" target="_blank">here</a>. Basically, you need to install vagrant, virtual box, and then do this:
 
 ```bash
 vagrant init ubuntu/trusty64

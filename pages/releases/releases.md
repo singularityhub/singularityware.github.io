@@ -16,7 +16,7 @@ toc: false
     <div class="post-list">
     {% for post in site.categories.releases %}
 
-    <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
+    <h2><a class="post-link" href="{{ site.baseurl }}/{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} 
       {% if post.targz %}
       <a class="no-after" href="{{ site.repo }}/archive/{{ post.targz }}" target="_blank">
